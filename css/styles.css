@@ -189,16 +189,9 @@ footer a {
 		flex-basis: 100%;
 	}
 	
-	#portfolio section {
+	#portfolio section, #portfolio section:nth-of-type(even) {
 		flex-basis: 30%;
-	}
-	
-	#portfolio section:nth-of-type(even) {
 		padding-right: .5rem;
-		padding-left: .5rem;
-	}
-	
-	#portfolio section:nth-of-type(3n) {
 		padding-left: .5rem;
 	}
 	
